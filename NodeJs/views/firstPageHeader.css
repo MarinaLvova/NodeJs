@@ -1,0 +1,51 @@
+.header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d1d8dd;
+    height: 80px;
+    bottom: 0px;
+    position: fixed;
+    top: 0;
+    left: 8px;
+    right: 8px;
+    z-index: 100;
+}
+
+.page{
+    position: relative;
+    top: 90px;
+}
+
+
+.buttons{
+    display: flex;
+    margin-right: 20px;
+}
+
+.logo{
+    height: 97px;
+    width: 97px;
+    margin-left: 20px;
+}
+
+.header button{
+    width: 185px;
+    height: 49px;
+    background-color: #d1d8dd;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #3f4145;
+    margin: 5px;
+    color: #3f4145;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header button:hover{
+    background-color: #3f4145;
+    color: #d1d8dd;
+    transition: 0.15s;
+}
